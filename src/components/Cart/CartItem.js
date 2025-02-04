@@ -15,7 +15,7 @@ const CartItem = (props) => {
   };
 
   const removeItemHadler = () => {
-    cartDispath(cartActions.removeItemFromcart(id));
+    cartDispath(cartActions.removeItemFromCart(id));
   };
 
   return (

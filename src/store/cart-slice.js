@@ -23,7 +23,7 @@ const cartSlice = createSlice({
                 });
             } else {
                 existingItem.quantity++;
-                existingItem.totalPrice = existingItem.price + newItem.price; 
+                existingItem.totalPrice = existingItem.totalPrice + newItem.price; 
             }
         },
 
