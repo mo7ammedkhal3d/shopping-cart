@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import Notification from "../components/UI/Notification";
 
 const initialCartState = {
     items: [],
